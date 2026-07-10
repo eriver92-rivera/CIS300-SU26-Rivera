@@ -20,11 +20,13 @@ header {
 
 #logo {
     background-color: #FFFFFF;
-    color: #2F5D3A;
-    padding: 1em;
+    padding: 0.5em;
     width: 150px;
     margin: auto;
-    font-weight: bold;
+}
+
+#logo img {
+    width: 100%;
 }
 
 nav {
@@ -48,10 +50,20 @@ main {
     overflow: auto;
 }
 
-#hero img {
-    width: 40%;
+.herotext {
+    width: 50%;
+    float: left;
+}
+
+.heroimages {
     float: right;
+    width: 45%;
     margin-left: 20px;
+}
+
+.heroimages img {
+    width: 45%;
+    margin: 1%;
 }
 
 section {
@@ -72,6 +84,16 @@ img {
     max-width: 100%;
 }
 
+section img {
+    width: 55%;
+    display: block;
+    margin: 1em auto;
+}
+
+.heroimages img {
+    display: inline;
+}
+
 table {
     border: 2px solid #2F5D3A;
     border-collapse: collapse;
@@ -86,6 +108,11 @@ th {
 
 th {
     background-color: #D9E6D2;
+}
+
+video {
+    display: block;
+    margin: 1em auto;
 }
 
 footer {
